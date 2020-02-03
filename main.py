@@ -1,4 +1,5 @@
 import requests
+import pyperclip
 import argparse
 from dotenv import load_dotenv
 import os
@@ -44,6 +45,7 @@ def main():
         print('Всего кликов:', clicks_count)
     elif not args.url.startswith('bit.ly') and bitlink:
             print('Битлинк', bitlink)
+            pyperclip.copy(bitlink) 
 
 if __name__ == '__main__':
     main()

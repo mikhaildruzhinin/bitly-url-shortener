@@ -1,6 +1,6 @@
 # Bitly url shortener
 
-This script has two main features. It can shorten links with [Bitly.com](https://bitly.com) and also it can provide you with the statistics for your short links.
+This script has two main features. Firslty, it can shorten links with [Bitly.com](https://bitly.com) and copy them to your clipboard. Secondly, it can provide you with the statistics for your short links. 
 
 ### How to install
 
